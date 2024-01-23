@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cart | New Tech</title>
+
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" />
+    <link rel="stylesheet" href="style.css" />   
+
+    <link rel="icon" href="resources/logo.png" />
+
+</head>
+
+<body>
+<?php
+
+
+require "header.php";
+
+?>
+
+<div class="card3">
+            <div class="row">
+                <div class="col-md-8 cart3">
+                    <div class="title3">
+                        <div class="row">
+                            <div class="col"><h4><b>Shopping Cart</b></h4></div>
+                            <div class="col align-self-center text-right text-muted">3 items</div>
+                        </div>
+                    </div>    
+                    <div class="row border-top border-bottom">
+                        <div class="row main3 align-items-center">
+                            <div class="col-2"><img class="img-fluid" src="resources/mobile_images/Iphone 12 2.jpeg"></div>
+                            <div class="col">
+                                <div class="row text-muted">Apple iPhone</div>
+                                <div class="row">Apple iPhone 12 (Purple)</div>
+                            </div>
+                            <div class="col">
+                                <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+                            </div>
+                            <div class="col">Rs. 100,000.00 <span class="close">&#10005;</span></div>
+                        </div>
+                    </div>
+                    <div class="back-to-shop"><a href="#">&leftarrow;</a><span class="text-muted">Back to shop</span></div>
+                </div>
+                <div class="col-md-4 summary3">
+                    <div><h5><b>Summary</b></h5></div>
+                    <hr>
+                    <div class="row">
+                        <div class="col" style="padding-left:0;">ITEMS 1</div>
+                        <div class="col text-right">Rs. 100,000.00</div>
+                    </div>
+                    <form>
+                        <p>SHIPPING</p>
+                        <select><option class="text-muted">Delivery - Western Province Rs. 300.00</option></select>
+                        <p>GIVE CODE</p>
+                        <input id="code" placeholder="Enter your code">
+                    </form>
+                    <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                        <div class="col">TOTAL PRICE</div>
+                        <div class="col text-right">Rs. 100,300.00</div>
+                    </div>
+                    <button class="btn3">CHECKOUT</button>
+                </div>
+            </div>
+            
+        </div>
+</body>
